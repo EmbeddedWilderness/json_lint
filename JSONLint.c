@@ -47,9 +47,9 @@
 * Defines
 ******************************************************************************/
 #define CHAR_HORIZONTAL_TAB		0x09
-#define CHAR_CARRIAGE_RETURN	0x0A
+#define CHAR_CARRIAGE_RETURN		0x0A
 #define CHAR_LINEFEED			0x0D
-#define CHAR_SPACE				0x20
+#define CHAR_SPACE			0x20
 
 #define STRING_OBJECT_START		"{"
 #define STRING_ARRAY_START		"["
@@ -63,11 +63,11 @@
 #define STRING_SIGN_POS			"+"
 #define STRING_SIGN_NEG			"-"
 #define STRING_DECIMAL			"."
-#define STRING_0				"0"
+#define STRING_0			"0"
 
 #define STRING_FALSE			"false"
-#define STRING_TRUE				"true"
-#define STRING_NULL				"null"
+#define STRING_TRUE			"true"
+#define STRING_NULL			"null"
 
 #define STRING_ESCAPE_CHARS		"\"\\/bfnrtu"
 #define STRING_HEX_CHARS		"0123456789abcdefABCDEF"
