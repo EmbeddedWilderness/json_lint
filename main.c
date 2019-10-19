@@ -138,14 +138,14 @@ int main() {
 *
 ******************************************************************************/
 void JSON_Test_Cases() {
-	json_lint_result_t parse_result;
+	json_lint_result_t lint_result;
 	uint8_t index = 0;
 	bool test_result = true;
 
 	printf("Test cases:  ");
 	while (strlen(tc_json[index][0]) > 0) {
-		parse_result = LintJSON(tc_json[index][0], false);
-		if (parse_result != tc_json[index][1]) {
+		lint_result = LintJSON(tc_json[index][0], false);
+		if (lint_result != tc_json[index][1]) {
 			printf("FAIL test %i\r\n", index);
 			test_result = false;
 		}
